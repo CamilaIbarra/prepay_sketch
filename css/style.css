@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.navbar-brand{
+    padding-left: 20%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header{
+    height: 60vh;
+    min-width: 100px;
+    min-height: 400px;
+    background-size: cover; 
+    /* background-image: url(../img/background.jpg); */
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
+.payment-request{
+    padding-left: 60%;
+}
+
+.request-btn{
+    text-decoration: none;
+}
+
+.footer-bg{
+    background: linear-gradient(90deg, rgb(111, 117, 194) 0%, rgb(87, 198, 150)60%);
+}
+
+.footer-text{
+    color: #eeee;
+}
+
+.fa-quote-left{
+    color:rgb(111, 117, 194);
+}
+
+bg-image{
+    background: linear-gradient(rgba(40, 120, 235, 0.05), rgba(40, 120, 235, 0.05)), url(../img/bg-image.jpg);
+    background-attachment: fixed;
+}
