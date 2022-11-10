@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto';
+    /* font-family: 'Open sans', sans-serif; */
     background: linear-gradient(90deg, rgb(111, 117, 194) 0%, rgb(87, 198, 150)60%);
 }
 
