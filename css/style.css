@@ -148,17 +148,17 @@ header {
     border-color: rgb(111, 117, 194);
 }
 
-.text-block-17 {
+.steps div {
     font-weight: bold;
     font-size: 30px;
-    color: #4970dd;
+    color: rgb(111, 117, 194);
 }
 
-.text-block-17:hover{
-    color: rgb(87, 198, 150);
-}
-
-.text-block-5 {
+.steps h4 {
     font-weight: bold;
-    font-size: 20px;
+    color: rgb(111, 117, 194);
+}
+
+.steps li:hover div, .steps li:hover h4{
+    color: rgb(87, 198, 150);
 }
