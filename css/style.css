@@ -34,6 +34,26 @@ header {
     }
 }
 
+.inverse-wave{
+    position: absolute;
+    bottom: -96px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/wave2.png);
+    background-size: 1000px 100px;
+    animation:wave 20s linear infinite;
+}
+
+@keyframes inverse-wave{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
 .fa-solid {
     font-size: 30px;
 }
