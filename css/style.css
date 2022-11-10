@@ -48,6 +48,8 @@ header {
     width: 940px;
     margin: 0 auto;
     padding: 50px;
+    /* box-sizing: border-box;
+    text-align: center; */
 }
 
 .steps li {
