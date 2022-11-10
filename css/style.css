@@ -1,45 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 20%;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 25px;
 }
 
-header{
-    height: 60vh;
+header {
+    height: 100vh;
     min-width: 100px;
     min-height: 400px;
-    background-size: cover; 
-    /* background-image: url(../img/background.jpg); */
+    background-size: cover;
+    /* background-image: url(../img/foto-banner.jpg); */
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 30px;
 }
 
-.payment-request{
+.payment-request {
     padding-left: 60%;
 }
 
-.request-btn{
+.request-btn {
     text-decoration: none;
 }
 
-.footer-bg{
+.home-banner {
+    margin-top: 200px;
+    padding-left: 10%;
+}
+
+.footer-bg {
     background: linear-gradient(90deg, rgb(111, 117, 194) 0%, rgb(87, 198, 150)60%);
 }
 
-.footer-text{
+.footer-text {
     color: #eeee;
 }
 
-.fa-quote-left{
-    color:rgb(111, 117, 194);
+.fa-quote-left {
+    color: rgb(111, 117, 194);
 }
 
-bg-image{
-    background: linear-gradient(rgba(40, 120, 235, 0.05), rgba(40, 120, 235, 0.05)), url(../img/bg-image.jpg);
-    background-attachment: fixed;
+.steps {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.steps li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* border: 2px solid #000000; */
+    border-radius: 10px;
+}
+
+.text-block-17 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #4970dd;
+}
+
+.text-block-5 {
+    font-weight: bold;
+    font-size: 20px;
 }
