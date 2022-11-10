@@ -1,37 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-body{
+body {
     font-family: 'Roboto';
     background: linear-gradient(90deg, rgb(111, 117, 194) 0%, rgb(87, 198, 150)60%);
 }
 
-.navbar-brand{
-    color:#fff;
+.navbar-brand {
+    color: #fff;
 }
 
-.navbar-brand:hover{
-    color:#fff;
+.navbar-brand:hover {
+    color: #fff;
 }
 
-.inner-row{
+.inner-row {
     height: 100vh;
 }
 
-.primaryBg{
-    background:rgb(111, 117, 194);
-    color:#fff;
+.primaryBg {
+    background: rgb(111, 117, 194);
+    color: #fff;
     font-weight: bold;
 }
 
-.primaryColor{
+.primaryBg:hover {
+    background-color: rgb(87, 198, 150);
+    color: #fff;
+}
+
+.primaryColor {
     color: rgb(111, 117, 194);
 }
 
-.form-box{
-    background:#fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+.primaryColor:hover {
+    color: rgb(87, 198, 150);
 }
 
-.register-form{
+.form-box {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.register-form {
     display: none;
 }
