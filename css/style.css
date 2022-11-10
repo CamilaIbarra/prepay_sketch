@@ -144,10 +144,18 @@ header {
     border-radius: 10px;
 }
 
+.steps li:hover{
+    border-color: rgb(111, 117, 194);
+}
+
 .text-block-17 {
     font-weight: bold;
     font-size: 30px;
     color: #4970dd;
+}
+
+.text-block-17:hover{
+    color: rgb(87, 198, 150);
 }
 
 .text-block-5 {
