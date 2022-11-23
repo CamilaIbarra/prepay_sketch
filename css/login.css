@@ -45,3 +45,12 @@ body {
 .register-form {
     display: none;
 }
+
+.fa-eye-slash{
+    position: absolute;
+    top: 35%;
+    right: 4%;
+    font-size:21px;
+    cursor:pointer;
+    color:lightgray;
+}
